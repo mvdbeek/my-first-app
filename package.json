@@ -21,7 +21,10 @@
     "test:watch": "jest --watch --notify --notifyMode=change --coverage"
   },
   "dependencies": {
-    "probot": "^9.5.3"
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^1.8.0",
+    "probot": "^9.5.3",
+    "yamljs": "^0.3.0"
   },
   "devDependencies": {
     "jest": "^24.9.0",
